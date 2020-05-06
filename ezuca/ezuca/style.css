@@ -176,7 +176,8 @@ a:hover, a:active {
 --------------------------------*/
 .nav-bar {
     padding: 20px 0;
-    background: rgba(255,255,255,.1);
+    background:#DC143C;
+
 }
 
 /*
@@ -1071,8 +1072,13 @@ a.btn:hover {
 /*
 # Gallery
 --------------------------------*/
+.
 .home-gallery {
     overflow: hidden;
+}
+.home-gallery .container{
+    background: #FFCBA4;
+    
 }
 
 .gallery-wrap {
@@ -1140,15 +1146,6 @@ a.btn:hover {
 /*
 # Clients Logos
 --------------------------------*/
-.clients-logo {
-    margin-top: 100px;
-    padding: 16px 0;
-    background: #f7f7f7;
-}
-
-.logo-wrap {
-    margin: 16px;
-}
 
 /*--------------------------------------------------------------
 # Courses Page
@@ -2609,6 +2606,9 @@ ul.author-social-profile li:hover .fa {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.site-footer{
+    background: #040A32;
+}
 .footer-widgets {
     padding: 60px 0;
     color: #757686;
@@ -2628,7 +2628,7 @@ p.footer-copyright {
 .footer-widgets h2 {
     margin-bottom: 40px;
     font-size: 20px;
-    color: #383749;
+    color: #fff;
 }
 
 .footer-widgets ul {
@@ -2679,7 +2679,7 @@ p.footer-copyright {
 
 .footer-bar {
     padding: 30px 0;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid red;
 }
 
 .footer-bar .download-apps a {
@@ -2715,4 +2715,17 @@ p.footer-copyright {
 
 .footer-bar-nav ul li a:hover {
     color: #34d986;
+}
+.footer-bar-nav p{
+    color: #fff;
+    position: absolute;
+    left: 350px;
+}
+.footer-bar-nav a{
+    color: #FF7F50;
+   
+}
+.footer-bar-nav i{
+    color: red;
+    
 }
